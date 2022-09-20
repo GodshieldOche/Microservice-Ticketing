@@ -1,0 +1,9 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+
+.form-input {
+    @apply w-full h-10 px-3 rounded-md text-[#1F2A37] border border-[#1F2A37]/60 focus:outline-none;
+}
